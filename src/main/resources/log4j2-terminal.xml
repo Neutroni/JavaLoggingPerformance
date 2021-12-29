@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="log4j2PerfTest" status="error">
+    <Appenders>
+        <Console name="Console_Appender" target="SYSTEM_ERR">
+            <PatternLayout pattern="%date %level %logger - %message%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="Console_Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>
+

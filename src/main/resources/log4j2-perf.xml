@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="log4j2PerfTest" status="error">
+    <Appenders>
+        <RandomAccessFile name="File_Appender" fileName="target/test-output/log4j2-perf.log">
+            <immediateFlush>false</immediateFlush>
+            <PatternLayout pattern="%date %level %logger - %message%n"/>
+        </RandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="File_Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>
+
