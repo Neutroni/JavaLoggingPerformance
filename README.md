@@ -34,7 +34,7 @@ TerminalBenchmark.logbackTerminal  thrpt   25  1049,577 ±  4,005  ops/ms
 TerminalBenchmark.tinylogTerminal  thrpt   25   276,991 ±  2,638  ops/ms
 ```
 
-3-threads
+3 threads
 
 ```
 Benchmark                           Mode  Cnt     Score    Error   Units
@@ -48,7 +48,7 @@ TerminalBenchmark.logbackTerminal  thrpt   25   161,595 ±  9,603  ops/ms
 TerminalBenchmark.tinylogTerminal  thrpt   25   141,867 ±  8,668  ops/ms
 ```
 
-6-threads
+6 threads
 
 ```
 Benchmark                           Mode  Cnt     Score    Error   Units
@@ -62,7 +62,7 @@ TerminalBenchmark.logbackTerminal  thrpt   25   135,570 ±  5,696  ops/ms
 TerminalBenchmark.tinylogTerminal  thrpt   25    83,389 ±  4,011  ops/ms
 ```
 
-12-threads
+12 threads
 
 ```
 Benchmark                           Mode  Cnt     Score    Error   Units
@@ -76,14 +76,14 @@ TerminalBenchmark.logbackTerminal  thrpt   25   128,434 ±   7,287  ops/ms
 TerminalBenchmark.tinylogTerminal  thrpt   25    79,299 ±   1,889  ops/ms
 ```
 
-24-threads
+24 threads
 
 ```
 Benchmark                           Mode  Cnt     Score     Error   Units
 JulFileBenchmark.julFile           thrpt   25   604,850 ± 226,732  ops/ms
 Log4J2FileBenchmark.log4j2File     thrpt   25  1113,542 ±  31,949  ops/ms
 LogbackFileBenchmark.logbackFile   thrpt   25  1056,069 ±  11,109  ops/ms
-TinylogFileBenchmark.tinylogFile   thrpt   25  1249,064 ±  22,564  ops/mss
+TinylogFileBenchmark.tinylogFile   thrpt   25  1249,064 ±  22,564  ops/ms
 TerminalBenchmark.julTerminal      thrpt   25    44,809 ±   2,286  ops/ms
 TerminalBenchmark.log4j2Terminal   thrpt   25   113,197 ±   2,841  ops/ms
 TerminalBenchmark.logbackTerminal  thrpt   25   127,418 ±   5,973  ops/ms
